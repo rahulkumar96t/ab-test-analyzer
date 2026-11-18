@@ -1,0 +1,55 @@
+# Spec for data produced by `abtest simulate` (one row per user).
+name = "checkout-redesign"
+variant_column = "variant"
+control = "control"
+treatment = "treatment"
+expected_split = [0.5, 0.5]
+alpha = 0.05
+power = 0.8
+correction = "holm"          # none | bonferroni | holm | bh, applied to the secondary metrics
+srm_threshold = 0.001
+guardrail_alpha = 0.05       # one-sided, for the non-inferiority checks
+bootstrap_resamples = 2000
+seed = 7
+look_column = "day"          # cumulative daily looks for the always-valid (mSPRT) p-value
+msprt_tau_relative = 0.05    # mixture scale: 5 % of the control mean at the first look
+
+[primary]
+name = "conversion"
+kind = "binary"
+column = "converted"
+
+[[secondary]]
+name = "revenue_per_user"
+kind = "continuous"
+column = "revenue"
+covariate = "pre_revenue"    # CUPED
+robust = true                # also report Mann-Whitney
+bootstrap = true             # and a bootstrap CI of the raw difference
+
+[[secondary]]
+name = "revenue_per_session"
+kind = "ratio"
+numerator = "revenue"
+denominator = "sessions"
+bootstrap = true
+
+[[secondary]]
+name = "sessions_per_user"
+kind = "continuous"
+column = "sessions"
+covariate = "pre_sessions"
+
+[[guardrails]]
+name = "page_load_ms"
+kind = "continuous"
+column = "page_load_ms"
+direction = "decrease"       # lower is better
+margin = 0.02                # tolerate at most 2 % slower
+
+[[guardrails]]
+name = "bounce_rate"
+kind = "binary"
+column = "bounced"
+direction = "decrease"
+margin = 0.03

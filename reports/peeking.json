@@ -1,0 +1,486 @@
+{
+  "sims": 10000,
+  "n_per_arm": 20000,
+  "baseline": 0.1,
+  "tau_relative": 0.1,
+  "seed": 2026,
+  "seconds": 18.5,
+  "rows": [
+    {
+      "looks": 1,
+      "lift": 0.0,
+      "naive": {
+        "rate": 0.0518,
+        "hits": 518,
+        "trials": 10000,
+        "ci95_low": 0.047625801905262416,
+        "ci95_high": 0.05631841423964028
+      },
+      "fixed_horizon": {
+        "rate": 0.0518,
+        "hits": 518,
+        "trials": 10000,
+        "ci95_low": 0.047625801905262416,
+        "ci95_high": 0.05631841423964028
+      },
+      "msprt": {
+        "rate": 0.002,
+        "hits": 20,
+        "trials": 10000,
+        "ci95_low": 0.00129511170817141,
+        "ci95_high": 0.0030873506750537915
+      },
+      "group_sequential_obf": {
+        "rate": 0.0518,
+        "hits": 518,
+        "trials": 10000,
+        "ci95_low": 0.047625801905262416,
+        "ci95_high": 0.05631841423964028
+      },
+      "msprt_mean_sample_fraction": 1.0,
+      "gst_mean_sample_fraction": 1.0
+    },
+    {
+      "looks": 2,
+      "lift": 0.0,
+      "naive": {
+        "rate": 0.0764,
+        "hits": 764,
+        "trials": 10000,
+        "ci95_low": 0.07135473010281357,
+        "ci95_high": 0.08177059332195388
+      },
+      "fixed_horizon": {
+        "rate": 0.046,
+        "hits": 460,
+        "trials": 10000,
+        "ci95_low": 0.04206559122763448,
+        "ci95_high": 0.050283079298438296
+      },
+      "msprt": {
+        "rate": 0.0033,
+        "hits": 33,
+        "trials": 10000,
+        "ci95_low": 0.0023508234033863657,
+        "ci95_high": 0.004630640584059332
+      },
+      "group_sequential_obf": {
+        "rate": 0.0467,
+        "hits": 467,
+        "trials": 10000,
+        "ci95_low": 0.042735761846638014,
+        "ci95_high": 0.05101237108170734
+      },
+      "msprt_mean_sample_fraction": 0.9991,
+      "gst_mean_sample_fraction": 0.9976
+    },
+    {
+      "looks": 5,
+      "lift": 0.0,
+      "naive": {
+        "rate": 0.1328,
+        "hits": 1328,
+        "trials": 10000,
+        "ci95_low": 0.1262894831235179,
+        "ci95_high": 0.13959252528435417
+      },
+      "fixed_horizon": {
+        "rate": 0.043,
+        "hits": 430,
+        "trials": 10000,
+        "ci95_low": 0.039196453081550016,
+        "ci95_high": 0.04715452143478315
+      },
+      "msprt": {
+        "rate": 0.0047,
+        "hits": 47,
+        "trials": 10000,
+        "ci95_low": 0.003536501759254328,
+        "ci95_high": 0.006243887032736521
+      },
+      "group_sequential_obf": {
+        "rate": 0.0468,
+        "hits": 468,
+        "trials": 10000,
+        "ci95_low": 0.04283152143264615,
+        "ci95_high": 0.051116534696023855
+      },
+      "msprt_mean_sample_fraction": 0.99786,
+      "gst_mean_sample_fraction": 0.9918799999999999
+    },
+    {
+      "looks": 10,
+      "lift": 0.0,
+      "naive": {
+        "rate": 0.1927,
+        "hits": 1927,
+        "trials": 10000,
+        "ci95_low": 0.18508810692237423,
+        "ci95_high": 0.20054789847996538
+      },
+      "fixed_horizon": {
+        "rate": 0.0489,
+        "hits": 489,
+        "trials": 10000,
+        "ci95_low": 0.044843646557883365,
+        "ci95_high": 0.05330279677760437
+      },
+      "msprt": {
+        "rate": 0.012,
+        "hits": 120,
+        "trials": 10000,
+        "ci95_low": 0.010045476125655083,
+        "ci95_high": 0.01432930629003548
+      },
+      "group_sequential_obf": {
+        "rate": 0.0488,
+        "hits": 488,
+        "trials": 10000,
+        "ci95_low": 0.0447477813087589,
+        "ci95_high": 0.053198738826404184
+      },
+      "msprt_mean_sample_fraction": 0.99428,
+      "gst_mean_sample_fraction": 0.9892
+    },
+    {
+      "looks": 20,
+      "lift": 0.0,
+      "naive": {
+        "rate": 0.2508,
+        "hits": 2508,
+        "trials": 10000,
+        "ci95_low": 0.24240085830271926,
+        "ci95_high": 0.2593905264882441
+      },
+      "fixed_horizon": {
+        "rate": 0.0498,
+        "hits": 498,
+        "trials": 10000,
+        "ci95_low": 0.04570665127879198,
+        "ci95_high": 0.05423910085961764
+      },
+      "msprt": {
+        "rate": 0.0132,
+        "hits": 132,
+        "trials": 10000,
+        "ci95_low": 0.011142645741172092,
+        "ci95_high": 0.01563121507841431
+      },
+      "group_sequential_obf": {
+        "rate": 0.0498,
+        "hits": 498,
+        "trials": 10000,
+        "ci95_low": 0.04570665127879198,
+        "ci95_high": 0.05423910085961764
+      },
+      "msprt_mean_sample_fraction": 0.9933949999999999,
+      "gst_mean_sample_fraction": 0.988005
+    },
+    {
+      "looks": 50,
+      "lift": 0.0,
+      "naive": {
+        "rate": 0.3294,
+        "hits": 3294,
+        "trials": 10000,
+        "ci95_low": 0.320255306066513,
+        "ci95_high": 0.33867571417962816
+      },
+      "fixed_horizon": {
+        "rate": 0.052,
+        "hits": 520,
+        "trials": 10000,
+        "ci95_low": 0.04781781736689126,
+        "ci95_high": 0.056526245178660735
+      },
+      "msprt": {
+        "rate": 0.0143,
+        "hits": 143,
+        "trials": 10000,
+        "ci95_low": 0.01215253324787749,
+        "ci95_high": 0.016820482775280105
+      },
+      "group_sequential_obf": {
+        "rate": 0.053,
+        "hits": 530,
+        "trials": 10000,
+        "ci95_low": 0.04877816058233213,
+        "ci95_high": 0.0575651339664664
+      },
+      "msprt_mean_sample_fraction": 0.992726,
+      "gst_mean_sample_fraction": 0.986528
+    },
+    {
+      "looks": 100,
+      "lift": 0.0,
+      "naive": {
+        "rate": 0.3709,
+        "hits": 3709,
+        "trials": 10000,
+        "ci95_low": 0.3614837396367327,
+        "ci95_high": 0.38041540874413965
+      },
+      "fixed_horizon": {
+        "rate": 0.0515,
+        "hits": 515,
+        "trials": 10000,
+        "ci95_low": 0.04733781240514255,
+        "ci95_high": 0.05600663413878618
+      },
+      "msprt": {
+        "rate": 0.0167,
+        "hits": 167,
+        "trials": 10000,
+        "ci95_low": 0.014367626546503635,
+        "ci95_high": 0.01940354628444564
+      },
+      "group_sequential_obf": {
+        "rate": 0.0517,
+        "hits": 517,
+        "trials": 10000,
+        "ci95_low": 0.04752980090062051,
+        "ci95_high": 0.05621449204395753
+      },
+      "msprt_mean_sample_fraction": 0.9909739999999999,
+      "gst_mean_sample_fraction": 0.986502
+    },
+    {
+      "looks": 1,
+      "lift": 0.1,
+      "naive": {
+        "rate": 0.8979,
+        "hits": 8979,
+        "trials": 10000,
+        "ci95_low": 0.8918120049909736,
+        "ci95_high": 0.9036824091008232
+      },
+      "fixed_horizon": {
+        "rate": 0.8979,
+        "hits": 8979,
+        "trials": 10000,
+        "ci95_low": 0.8918120049909736,
+        "ci95_high": 0.9036824091008232
+      },
+      "msprt": {
+        "rate": 0.5802,
+        "hits": 5802,
+        "trials": 10000,
+        "ci95_low": 0.5704980787989422,
+        "ci95_high": 0.5898403278614301
+      },
+      "group_sequential_obf": {
+        "rate": 0.8979,
+        "hits": 8979,
+        "trials": 10000,
+        "ci95_low": 0.8918120049909736,
+        "ci95_high": 0.9036824091008232
+      },
+      "msprt_mean_sample_fraction": 1.0,
+      "gst_mean_sample_fraction": 1.0
+    },
+    {
+      "looks": 2,
+      "lift": 0.1,
+      "naive": {
+        "rate": 0.9122,
+        "hits": 9122,
+        "trials": 10000,
+        "ci95_low": 0.9064937496384384,
+        "ci95_high": 0.9175896820997838
+      },
+      "fixed_horizon": {
+        "rate": 0.8995,
+        "hits": 8995,
+        "trials": 10000,
+        "ci95_low": 0.8934527915768198,
+        "ci95_high": 0.9052403937201712
+      },
+      "msprt": {
+        "rate": 0.6046,
+        "hits": 6046,
+        "trials": 10000,
+        "ci95_low": 0.5949786115184569,
+        "ci95_high": 0.6141410560211308
+      },
+      "group_sequential_obf": {
+        "rate": 0.8963,
+        "hits": 8963,
+        "trials": 10000,
+        "ci95_low": 0.8901716696316115,
+        "ci95_high": 0.9021239732549906
+      },
+      "msprt_mean_sample_fraction": 0.88535,
+      "gst_mean_sample_fraction": 0.8394
+    },
+    {
+      "looks": 5,
+      "lift": 0.1,
+      "naive": {
+        "rate": 0.9322,
+        "hits": 9322,
+        "trials": 10000,
+        "ci95_low": 0.927104791037877,
+        "ci95_high": 0.9369632807652758
+      },
+      "fixed_horizon": {
+        "rate": 0.9071,
+        "hits": 9071,
+        "trials": 10000,
+        "ci95_low": 0.9012529956102137,
+        "ci95_high": 0.9126343529114512
+      },
+      "msprt": {
+        "rate": 0.6314,
+        "hits": 6314,
+        "trials": 10000,
+        "ci95_low": 0.6218958639897041,
+        "ci95_high": 0.6408032212368906
+      },
+      "group_sequential_obf": {
+        "rate": 0.8977,
+        "hits": 8977,
+        "trials": 10000,
+        "ci95_low": 0.8916069385869638,
+        "ci95_high": 0.9034876291041836
+      },
+      "msprt_mean_sample_fraction": 0.79888,
+      "gst_mean_sample_fraction": 0.71928
+    },
+    {
+      "looks": 10,
+      "lift": 0.1,
+      "naive": {
+        "rate": 0.9318,
+        "hits": 9318,
+        "trials": 10000,
+        "ci95_low": 0.926691506645944,
+        "ci95_high": 0.93657687235591
+      },
+      "fixed_horizon": {
+        "rate": 0.8937,
+        "hits": 8937,
+        "trials": 10000,
+        "ci95_low": 0.8875070634495773,
+        "ci95_high": 0.899590576228584
+      },
+      "msprt": {
+        "rate": 0.6522,
+        "hits": 6522,
+        "trials": 10000,
+        "ci95_low": 0.6428084022290145,
+        "ci95_high": 0.6614747086651084
+      },
+      "group_sequential_obf": {
+        "rate": 0.881,
+        "hits": 8810,
+        "trials": 10000,
+        "ci95_low": 0.874507090399574,
+        "ci95_high": 0.8872003028373563
+      },
+      "msprt_mean_sample_fraction": 0.7523,
+      "gst_mean_sample_fraction": 0.68195
+    },
+    {
+      "looks": 20,
+      "lift": 0.1,
+      "naive": {
+        "rate": 0.9463,
+        "hits": 9463,
+        "trials": 10000,
+        "ci95_low": 0.9417079031288422,
+        "ci95_high": 0.9505493399200868
+      },
+      "fixed_horizon": {
+        "rate": 0.9062,
+        "hits": 9062,
+        "trials": 10000,
+        "ci95_low": 0.9003287078937855,
+        "ci95_high": 0.9117593318249574
+      },
+      "msprt": {
+        "rate": 0.6691,
+        "hits": 6691,
+        "trials": 10000,
+        "ci95_low": 0.6598142497500552,
+        "ci95_high": 0.6782558819989342
+      },
+      "group_sequential_obf": {
+        "rate": 0.889,
+        "hits": 8890,
+        "trials": 10000,
+        "ci95_low": 0.8826931179267632,
+        "ci95_high": 0.8950081313361393
+      },
+      "msprt_mean_sample_fraction": 0.72158,
+      "gst_mean_sample_fraction": 0.65925
+    },
+    {
+      "looks": 50,
+      "lift": 0.1,
+      "naive": {
+        "rate": 0.9523,
+        "hits": 9523,
+        "trials": 10000,
+        "ci95_low": 0.9479462241737093,
+        "ci95_high": 0.956306410894699
+      },
+      "fixed_horizon": {
+        "rate": 0.9029,
+        "hits": 9029,
+        "trials": 10000,
+        "ci95_low": 0.8969410055014726,
+        "ci95_high": 0.9085495686065568
+      },
+      "msprt": {
+        "rate": 0.6847,
+        "hits": 6847,
+        "trials": 10000,
+        "ci95_low": 0.6755238643938594,
+        "ci95_high": 0.6937342866057757
+      },
+      "group_sequential_obf": {
+        "rate": 0.881,
+        "hits": 8810,
+        "trials": 10000,
+        "ci95_low": 0.874507090399574,
+        "ci95_high": 0.8872003028373563
+      },
+      "msprt_mean_sample_fraction": 0.6975520000000001,
+      "gst_mean_sample_fraction": 0.650422
+    },
+    {
+      "looks": 100,
+      "lift": 0.1,
+      "naive": {
+        "rate": 0.9619,
+        "hits": 9619,
+        "trials": 10000,
+        "ci95_low": 0.9579670510376247,
+        "ci95_high": 0.9654782112619501
+      },
+      "fixed_horizon": {
+        "rate": 0.9059,
+        "hits": 9059,
+        "trials": 10000,
+        "ci95_low": 0.9000206476199107,
+        "ci95_high": 0.9114676224978583
+      },
+      "msprt": {
+        "rate": 0.6915,
+        "hits": 6915,
+        "trials": 10000,
+        "ci95_low": 0.6823753363585233,
+        "ci95_high": 0.7004775922631884
+      },
+      "group_sequential_obf": {
+        "rate": 0.886,
+        "hits": 8860,
+        "trials": 10000,
+        "ci95_low": 0.8796222226929615,
+        "ci95_high": 0.8920813305602013
+      },
+      "msprt_mean_sample_fraction": 0.685808,
+      "gst_mean_sample_fraction": 0.644233
+    }
+  ]
+}
